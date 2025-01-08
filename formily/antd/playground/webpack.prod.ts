@@ -17,6 +17,7 @@ const createPages = (pages) => {
 
 export default {
   ...baseConfig,
+  devtool: "source-map",
   mode: 'production',
   plugins: [
     new MiniCssExtractPlugin({
